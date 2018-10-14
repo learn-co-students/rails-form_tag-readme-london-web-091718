@@ -380,3 +380,241 @@ Completed 200 OK in 2ms (Views: 1.3ms | ActiveRecord: 0.0ms)
   [1m[35m (1.4ms)[0m  DELETE FROM "posts";
   [1m[36m (0.1ms)[0m  [1mSELECT name FROM sqlite_master WHERE type='table' AND name='sqlite_sequence';[0m
   [1m[35m (0.1ms)[0m  DELETE FROM sqlite_sequence where name = 'posts';
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mrollback transaction[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mrollback transaction[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mrollback transaction[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+Started GET "/posts/new" for 127.0.0.1 at 2018-10-14 15:49:31 +0100
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+Started GET "/posts/new" for 127.0.0.1 at 2018-10-14 15:50:02 +0100
+Processing by PostsController#new as HTML
+Completed 500 Internal Server Error in 18ms (ActiveRecord: 0.0ms)
+  [1m[36m (0.0ms)[0m  [1mrollback transaction[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+Started GET "/posts/new" for 127.0.0.1 at 2018-10-14 15:50:44 +0100
+Processing by PostsController#new as HTML
+  Rendered posts/new.html.erb within layouts/application (4.9ms)
+Completed 500 Internal Server Error in 24ms (ActiveRecord: 0.0ms)
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+Started GET "/posts/new" for 127.0.0.1 at 2018-10-14 15:50:58 +0100
+Processing by PostsController#new as HTML
+  Rendered posts/new.html.erb within layouts/application (5.0ms)
+Completed 500 Internal Server Error in 24ms (ActiveRecord: 0.0ms)
+  [1m[36m (0.0ms)[0m  [1mrollback transaction[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+Started GET "/posts/new" for 127.0.0.1 at 2018-10-14 16:16:18 +0100
+Processing by PostsController#new as HTML
+  Rendered posts/new.html.erb within layouts/application (5.0ms)
+Completed 500 Internal Server Error in 25ms (ActiveRecord: 0.0ms)
+  [1m[36m (0.0ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+Started GET "/posts/new" for 127.0.0.1 at 2018-10-14 16:16:18 +0100
+Processing by PostsController#new as HTML
+  Rendered posts/new.html.erb within layouts/application (3.1ms)
+Completed 500 Internal Server Error in 3ms (ActiveRecord: 0.0ms)
+  [1m[36m (0.0ms)[0m  [1mrollback transaction[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+Started GET "/posts/new" for 127.0.0.1 at 2018-10-14 16:16:44 +0100
+Processing by PostsController#new as HTML
+  Rendered posts/new.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 264ms (Views: 256.3ms | ActiveRecord: 0.0ms)
+  [1m[36m (0.0ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+Started GET "/posts/new" for 127.0.0.1 at 2018-10-14 16:16:45 +0100
+Processing by PostsController#new as HTML
+  Rendered posts/new.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 1ms (Views: 0.8ms | ActiveRecord: 0.0ms)
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+Started GET "/posts/new" for 127.0.0.1 at 2018-10-14 16:18:39 +0100
+Processing by PostsController#new as HTML
+  Rendered posts/new.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 158ms (Views: 150.6ms | ActiveRecord: 0.0ms)
+  [1m[36m (0.0ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+Started GET "/posts/new" for 127.0.0.1 at 2018-10-14 16:18:40 +0100
+Processing by PostsController#new as HTML
+  Rendered posts/new.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 1ms (Views: 1.0ms | ActiveRecord: 0.0ms)
+  [1m[36m (0.0ms)[0m  [1mrollback transaction[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+Started GET "/posts/new" for 127.0.0.1 at 2018-10-14 16:25:12 +0100
+Processing by PostsController#new as HTML
+  Rendered posts/new.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 153ms (Views: 145.7ms | ActiveRecord: 0.0ms)
+  [1m[36m (0.0ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+Started GET "/posts/new" for 127.0.0.1 at 2018-10-14 16:25:12 +0100
+Processing by PostsController#new as HTML
+  Rendered posts/new.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 1ms (Views: 0.7ms | ActiveRecord: 0.0ms)
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+Started GET "/posts/new" for 127.0.0.1 at 2018-10-14 16:25:12 +0100
+Processing by PostsController#new as HTML
+  Rendered posts/new.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 1ms (Views: 0.7ms | ActiveRecord: 0.0ms)
+  [1m[36m (0.0ms)[0m  [1mrollback transaction[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+Started GET "/posts/new" for 127.0.0.1 at 2018-10-14 23:07:46 +0100
+Processing by PostsController#new as HTML
+  Rendered posts/new.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 158ms (Views: 150.8ms | ActiveRecord: 0.0ms)
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+Started GET "/posts/new" for 127.0.0.1 at 2018-10-14 23:07:46 +0100
+Processing by PostsController#new as HTML
+  Rendered posts/new.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 1ms (Views: 1.0ms | ActiveRecord: 0.0ms)
+  [1m[36m (0.0ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+Started GET "/posts/new" for 127.0.0.1 at 2018-10-14 23:07:46 +0100
+Processing by PostsController#new as HTML
+  Rendered posts/new.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 1ms (Views: 1.0ms | ActiveRecord: 0.0ms)
+Started POST "/posts" for 127.0.0.1 at 2018-10-14 23:07:46 +0100
+Processing by PostsController#create as HTML
+  Parameters: {"post"=>{"title"=>"My post title", "description"=>"My post description"}, "authenticity_token"=>"wNNCfT8pm7k6fzkdmU7jNY9EAJIDvtvaOcSSNj2ncL+CgqwkIAJoZjCPox+iChJyHsily2bM3C+AknK2JmBqOA=="}
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "posts" ("title", "description", "created_at", "updated_at") VALUES (?, ?, ?, ?)  [["title", "My post title"], ["description", "My post description"], ["created_at", "2018-10-14 22:07:46.883772"], ["updated_at", "2018-10-14 22:07:46.883772"]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+Redirected to http://www.example.com/posts
+Completed 302 Found in 7ms (ActiveRecord: 0.6ms)
+Started GET "/posts" for 127.0.0.1 at 2018-10-14 23:07:46 +0100
+Processing by PostsController#index as HTML
+  [1m[35mPost Load (0.1ms)[0m  SELECT "posts".* FROM "posts"
+  Rendered posts/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 4ms (Views: 3.7ms | ActiveRecord: 0.1ms)
+  [1m[36m (0.4ms)[0m  [1mrollback transaction[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+Started GET "/posts/new" for 127.0.0.1 at 2018-10-14 23:11:51 +0100
+Processing by PostsController#new as HTML
+  Rendered posts/new.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 157ms (Views: 149.5ms | ActiveRecord: 0.0ms)
+  [1m[36m (0.0ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+Started GET "/posts/new" for 127.0.0.1 at 2018-10-14 23:11:51 +0100
+Processing by PostsController#new as HTML
+  Rendered posts/new.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 1ms (Views: 1.2ms | ActiveRecord: 0.0ms)
+  [1m[36m (0.0ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+Started GET "/posts/new" for 127.0.0.1 at 2018-10-14 23:11:51 +0100
+Processing by PostsController#new as HTML
+  Rendered posts/new.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 1ms (Views: 0.9ms | ActiveRecord: 0.0ms)
+  [1m[36m (0.0ms)[0m  [1mrollback transaction[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+Started GET "/posts/new" for 127.0.0.1 at 2018-10-14 23:12:01 +0100
+Processing by PostsController#new as HTML
+  Rendered posts/new.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 155ms (Views: 147.6ms | ActiveRecord: 0.0ms)
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+Started GET "/posts/new" for 127.0.0.1 at 2018-10-14 23:12:01 +0100
+Processing by PostsController#new as HTML
+  Rendered posts/new.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 2ms (Views: 1.3ms | ActiveRecord: 0.0ms)
+  [1m[36m (0.0ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+Started GET "/posts/new" for 127.0.0.1 at 2018-10-14 23:12:01 +0100
+Processing by PostsController#new as HTML
+  Rendered posts/new.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 1ms (Views: 0.8ms | ActiveRecord: 0.0ms)
+Started POST "/posts" for 127.0.0.1 at 2018-10-14 23:12:01 +0100
+Processing by PostsController#create as HTML
+  Parameters: {"utf8"=>"✓", "post"=>{"title"=>"My post title", "description"=>"My post description"}, "authenticity_token"=>"lS0MpuwUQE/86NtbuR7U4eghxxonNRCnkmyGWHCdCtVzwnE3e4xoU4h8WCG5tq5Y/I8bcHT1AVP9w1hzqyQEYg=="}
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.5ms)[0m  INSERT INTO "posts" ("title", "description", "created_at", "updated_at") VALUES (?, ?, ?, ?)  [["title", "My post title"], ["description", "My post description"], ["created_at", "2018-10-14 22:12:01.536222"], ["updated_at", "2018-10-14 22:12:01.536222"]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+Redirected to http://www.example.com/posts
+Completed 302 Found in 7ms (ActiveRecord: 0.8ms)
+Started GET "/posts" for 127.0.0.1 at 2018-10-14 23:12:01 +0100
+Processing by PostsController#index as HTML
+  [1m[35mPost Load (0.1ms)[0m  SELECT "posts".* FROM "posts"
+  Rendered posts/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 5ms (Views: 4.9ms | ActiveRecord: 0.1ms)
+  [1m[36m (0.4ms)[0m  [1mrollback transaction[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+Started GET "/posts/new" for 127.0.0.1 at 2018-10-14 23:13:08 +0100
+Processing by PostsController#new as HTML
+  Rendered posts/new.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 155ms (Views: 147.8ms | ActiveRecord: 0.0ms)
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+Started GET "/posts/new" for 127.0.0.1 at 2018-10-14 23:13:08 +0100
+Processing by PostsController#new as HTML
+  Rendered posts/new.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 1ms (Views: 0.9ms | ActiveRecord: 0.0ms)
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+Started GET "/posts/new" for 127.0.0.1 at 2018-10-14 23:13:08 +0100
+Processing by PostsController#new as HTML
+  Rendered posts/new.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 1ms (Views: 1.0ms | ActiveRecord: 0.0ms)
+Started POST "/posts" for 127.0.0.1 at 2018-10-14 23:13:08 +0100
+Processing by PostsController#create as HTML
+  Parameters: {"utf8"=>"✓", "post"=>{"title"=>"My post title", "description"=>"My post description"}}
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.5ms)[0m  INSERT INTO "posts" ("title", "description", "created_at", "updated_at") VALUES (?, ?, ?, ?)  [["title", "My post title"], ["description", "My post description"], ["created_at", "2018-10-14 22:13:08.547179"], ["updated_at", "2018-10-14 22:13:08.547179"]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+Redirected to http://www.example.com/posts
+Completed 302 Found in 7ms (ActiveRecord: 0.8ms)
+Started GET "/posts" for 127.0.0.1 at 2018-10-14 23:13:08 +0100
+Processing by PostsController#index as HTML
+  [1m[35mPost Load (0.1ms)[0m  SELECT "posts".* FROM "posts"
+  Rendered posts/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 6ms (Views: 5.7ms | ActiveRecord: 0.1ms)
+  [1m[36m (1.0ms)[0m  [1mrollback transaction[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+Started GET "/posts/new" for 127.0.0.1 at 2018-10-14 23:16:23 +0100
+Processing by PostsController#new as HTML
+  Rendered posts/new.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 159ms (Views: 151.0ms | ActiveRecord: 0.0ms)
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+Started GET "/posts/new" for 127.0.0.1 at 2018-10-14 23:16:23 +0100
+Processing by PostsController#new as HTML
+  Rendered posts/new.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 1ms (Views: 1.2ms | ActiveRecord: 0.0ms)
+  [1m[36m (0.0ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+Started GET "/posts/new" for 127.0.0.1 at 2018-10-14 23:16:23 +0100
+Processing by PostsController#new as HTML
+  Rendered posts/new.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 1ms (Views: 0.8ms | ActiveRecord: 0.0ms)
+Started POST "/posts" for 127.0.0.1 at 2018-10-14 23:16:23 +0100
+Processing by PostsController#create as HTML
+  Parameters: {"utf8"=>"✓", "post"=>{"title"=>"My post title", "description"=>"My post description"}, "commit"=>"Submit Post"}
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.5ms)[0m  INSERT INTO "posts" ("title", "description", "created_at", "updated_at") VALUES (?, ?, ?, ?)  [["title", "My post title"], ["description", "My post description"], ["created_at", "2018-10-14 22:16:23.238146"], ["updated_at", "2018-10-14 22:16:23.238146"]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+Redirected to http://www.example.com/posts
+Completed 302 Found in 7ms (ActiveRecord: 0.8ms)
+Started GET "/posts" for 127.0.0.1 at 2018-10-14 23:16:23 +0100
+Processing by PostsController#index as HTML
+  [1m[35mPost Load (0.1ms)[0m  SELECT "posts".* FROM "posts"
+  Rendered posts/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 5ms (Views: 5.0ms | ActiveRecord: 0.1ms)
+  [1m[36m (0.9ms)[0m  [1mrollback transaction[0m
